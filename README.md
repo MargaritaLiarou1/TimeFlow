@@ -1,4 +1,4 @@
-## [TimeFlow: a density-driven pseudotime method for flow cytometry data analysis ](https://)
+## [TimeFlow: a density-driven pseudotime method for flow cytometry data analysis ](https://www.biorxiv.org/content/10.1101/2025.02.16.638508v1)
 **Authors**: Margarita Liarou, Thomas Matthes, and Stéphane Marchand-Maillet.
 
 Pre-print available [**here**](https://www.biorxiv.org/content/10.1101/2025.02.16.638508v1).
@@ -33,6 +33,25 @@ Python Package versions:
 - seaborn==0.12.2
 - matplotlib==3.7.1
 - pygam==0.8.0
+
+##  Citation 
+The BibTeX for TimeFlow is the following:
+
+```
+@article {Liarou2025.02.16.638508,
+	author = {Liarou, Margarita and Matthes, Thomas and Marchand-Maillet, St{\'e}phane},
+	title = {TimeFlow: a density-driven pseudotime method for flow cytometry data analysis},
+	elocation-id = {2025.02.16.638508},
+	year = {2025},
+	doi = {10.1101/2025.02.16.638508},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Pseudotime methods order cells undergoing differentiation from the least to most differentiated. We developed TimeFlow, a new method for computing pseudotime in multi dimensional flow cytometry datasets. TimeFlow tracks the differentiation path of each cell on a graph by following smooth changes in the cell population density. To compute the probability density function of the cells, it uses a normalizing flow model. We profiled bone marrow samples from three healthy patients using a 20-color antibody panel for flow cytometry and prepared datasets that ranged from 5,000 to 600,000 cells and included monocytes, neutrophils, erythrocytes and B-cells at various maturation stages. TimeFlow computed fine-grained pseudotime for all the datasets, and the cell orderings were consistent with prior knowledge of human hematopoiesis. Experiments showed its potential in generalizing across patients and unseen cell states. We compared our method to 11 other pseudotime methods using in-house and public datasets and found very good performance for both linear and branching trajectories. TimeFlow{\textquoteright}s pseudotemporal orderings are useful for modelling the dynamics of cell surface proteins along linear trajectories. The biologically meaningful results in branching trajectories suggest the possibility of future applications with automated cell lineage detection. Code is available at https://github.com/MargaritaLiarou1/TimeFlow and bone marrow data will be accessible upon acceptance.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2025/02/20/2025.02.16.638508},
+	eprint = {https://www.biorxiv.org/content/early/2025/02/20/2025.02.16.638508.full.pdf},
+	journal = {bioRxiv}
+}
+
+```
 
 ## Contact
 Please contact us at *margarita.liarou@unige.ch* for any question about TimeFlow. 
