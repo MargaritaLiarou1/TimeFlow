@@ -9,7 +9,7 @@ We developed TimeFlow, a new pseudotime computation method for the analysis of m
 ![workflow](Figures/TimeFlow-Overview.png)
 
 ## Datasets
-We have made available in the `Pre-processed-datasets` the dataset of P1-Monocytes. All new flow cytometry datasets (obtained from the bone marrow of three healthy patients) will be available upon acceptance.
+We have made available in the `Pre-processed-datasets` the dataset of P1-Monocytes. All new flow cytometry datasets (obtained from the bone marrow of three healthy patients) will be available upon manuscript acceptance.
 
 All datasets have been pre-processed (see Supplementary Section S5) and stored in CSV format. The twenty first columns of each dataset correspond to the twenty CD markers and the last column contains the gating labels. There are fifteen datasets with linear trajectories: P1/2/3_Mono/Neu/Ery/Bcells.csv and three datasets with branching trajectories: P1/2/3-BM. The CD markers include: CD200, CD45, CD45RA, CD64, CD3, CD15, CD133, CD117, CD56, HLA.DR, CD19, CD33, CD34, CD371, CD7, CD16, CD123, CD36, CD38.
 Note that the gating labels are only used for visualization and evaluation purposes and not during pseudotime computation. 
@@ -38,7 +38,7 @@ Python Package versions:
 You can cite TimeFlow as it follows:
 
 ## Contact
-Please contact us at *margarita.liarou@unige.ch* for any question about the manuscript or support in using TimeFlow for your own research. 
- TimeFlow is under continuous development and upgrades will follow soon. 
+Please contact us at *margarita.liarou@unige.ch* for any question about TimeFlow. 
+
 ## License
 TimeFlow: a density-driven pseudotime method for flow cytometry data analysis is licensed under the Creative Commons Zero v1.0 Universal License. More information can be found [**here**](https://github.com/MargaritaLiarou1/TimeFlow/blob/main/LICENSE).
