@@ -1,7 +1,7 @@
 ## TimeFlow: A Density-Driven Pseudotime Method for Flow Cytometry Data Analysis
 **Authors**: Margarita Liarou, Thomas Matthes, and Stéphane Marchand-Maillet.
 
-Cytometry Part A publication available [**here**](https://onlinelibrary.wiley.com/doi/full/10.1002/cyto.a.24928).
+**Cytometry Part A** publication available [**here**](https://onlinelibrary.wiley.com/doi/full/10.1002/cyto.a.24928).
 
 We developed TimeFlow, a new pseudotime computation method for the analysis of multi-dimensional flow cytometry data. TimeFlow orders the cells within a sample from the least to the most differentiated along their maturation pathway. It tracks cell transitions over a graph following smooth changes in the cell population density. We applied TimeFlow on healthy human bone marrow samples to model the temporal dynamics of twenty surface protein markers for monocytes, neutrophils, erythrocytes and B-cells.
 
