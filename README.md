@@ -35,11 +35,14 @@ Python Package versions:
 ## Contact
 Please contact us at *margarita.liarou@unige.ch* for any question about TimeFlow. 
 
+<<<<<<< HEAD
 ##  Citation 
 The BibTeX for TimeFlow is the following:
 
 ```
 ```
 
+=======
+>>>>>>> 47a071b74170c227008bb8dd8474b5ff56dfa326
 ## License
 TimeFlow: a density-driven pseudotime method for flow cytometry data analysis is licensed under the Creative Commons Zero v1.0 Universal License. More information can be found [**here**](https://github.com/MargaritaLiarou1/TimeFlow/blob/main/LICENSE).
