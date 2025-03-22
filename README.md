@@ -39,6 +39,13 @@ Please contact us at *margarita.liarou@unige.ch* for any question about TimeFlow
 The BibTeX for TimeFlow is the following:
 
 ```
+@article{liarou2025timeflow,
+  title={TimeFlow: A Density-Driven Pseudotime Method for Flow Cytometry Data Analysis},
+  author={Liarou, Margarita and Matthes, Thomas and Marchand-Maillet, St{\'e}phane},
+  journal={Cytometry Part A},
+  year={2025},
+  publisher={Wiley Online Library}
+}
 ```
 
 ## License
