@@ -1,0 +1,19 @@
+﻿Cell Trajectory,Root cell index for Python pseudotime methods,Root cell index for R pseudotime methods
+P1 Monocytes,35362,35363
+P1 Neutrophils,228691,228692
+P1 Erythrocytes,34900,34901
+P1 B-cells,6266,6267
+P1 BM,202878,202879
+P2 Monocytes,51269,51270
+P2 Neutrophils,70667,70668
+P2 Erythrocytes,64684,64685
+P2 B-cells,3408,3409
+P2 BM,134468,134469
+P3 Monocytes,27514,27515
+P3 Neutrophils,20235,20236
+P3 Erythrocytes,2848,2849
+P3 B-cells,12519,12520
+P3 BM,132340,132341
+,,
+,,
+"This file contains the indices of the root cells (stem cells) selected for each dataset and pseudotime method, based on the CD34 expression. ",,

@@ -13,7 +13,7 @@ Note that the gating labels are only used for visualization and evaluation purpo
 
 ## Pseudotime analysis 
 To reproduce the analysis for Monocytes presented in Results Section 3, as well as the Supplementary Figures S1-S5, please follow the Tutorials in the `P1-Monocytes-Analysis`. `P1-Monocytes-Analysis/Tutorial-1-Density-Estimation.ipynb` shows how to use a normalizing flow model to compute the probability density function of the observed cells. In `P1-Monocytes-Analysis/Tutorial-2-Pseudotime-Computation.ipynb` we compute the cell pseudotime using TimeFlow and in `P1-Monocytes-Analysis/Tutorial-3-Marker-Dynamics.ipynb` we show how to fit and visualize the evolution of CD markers along pseudotime for the linear monocytic trajectory. 
-
+File `root_cell_indices.csv` contains the indices of the root cells (stem cells) selected for each dataset and pseudotime method, based on the CD34 expression. 
 ## Requirements
 
 The Python/PyTorch requirements are the following:
