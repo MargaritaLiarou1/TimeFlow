@@ -250,9 +250,8 @@ class Pseudotime:
         for i in range(self.euc_edges_weights.shape[0]):
             x = self.euc_node_pairs_list[i][0]
             y = self.euc_node_pairs_list[i][1]
-            # self.euc_edges_weights[i] = np.abs(euclidean_distances(markersArr[x].reshape(1, -1), markersArr[y].reshape(1,       -1))).reshape(1,)
-            self.euc_edges_weights[i] = np.abs(
-                np.linalg.norm(markersArr[x].reshape(1, -1) - markersArr[y].reshape(1, -1))).reshape(1, )
+            # self.euc_edges_weights[i] = np.abs(euclidean_distances(markersArr[x].reshape(1,-1), markersArr[y].reshape(1,-1))).reshape(1,)
+            self.euc_edges_weights[i] = np.linalg.norm(markersArr[x] - markersArr[y])
 
         self.euc_edges_weights_df = pd.DataFrame(self.euc_edges_weights, columns=["euc_edges_weights"])
         self.euc_weighted_euc_knnG = pd.concat([self.pairs_euc, self.euc_edges_weights_df], axis=1)
